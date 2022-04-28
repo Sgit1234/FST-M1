@@ -1,0 +1,13 @@
+import pandas
+df=pandas.read_csv("User Credentials.csv")
+print("Full data: ")
+print(df)
+print("Only usernames below:")
+print(df["Usernames"])
+print("=============================================")
+print("Second Username: ", df["Usernames"][1], " | ", "Second Password: ", df["Passwords"][1])
+print("=============================================")
+print("Usernames sorted ascending")
+print (df.sort_values("Usernames"))
+print("Passwords sorted descending")
+print (df.sort_values("Passwords", ascending=False))

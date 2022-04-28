@@ -1,0 +1,5 @@
+name=input("Enter your name: ")
+age=int(input("Enter your age: "))
+Hun=int(100-age)
+year=str(2022+Hun)
+print (f"Hurray!! You will turn 100 in {year}")   
