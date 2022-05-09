@@ -377,11 +377,9 @@
             </con:assertion>
             <con:assertion type="SOAP Fault Assertion" id="16accf08-5da1-4be3-9eeb-6ac6193b5e6d" name="Not SOAP Fault"/>
             
-            <con:assertion type="Simple Contains" id="dc856f90-bf5e-4512-a1e6-93baefe6b6d5" name="Contains"><con:configuration><token>16</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="74d6d145-cb21-4293-b4d9-e4c95997d2c7" name="XPath Match"><con:configuration><path>declare namespace soap='http://www.w3.org/2003/05/soap-envelope/';
+            <con:assertion type="Simple Contains" id="dc856f90-bf5e-4512-a1e6-93baefe6b6d5" name="Contains"><con:configuration><token>16</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="74d6d145-cb21-4293-b4d9-e4c95997d2c7" name="XPath Match"><con:configuration><path>declare namespace ns1='http://tempuri.org/';
 
-declare namespace ns1=’http://tempuri.org/’;
-
-//ns1:AddResult</path><content/><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials>
+//ns1:AddResult</path><content>16</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials>
               <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
               <con:authType>No Authorization</con:authType>
             </con:credentials>
